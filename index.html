@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form class="wrapper">
+        <input
+          type="text"
+          placeholder="Username"
+          class="username"
+          onfocus="this.placeholder=''"
+          onblur="this.placeholder='Username'"
+          onsubmit="this.placeholder=''"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          class="password"
+          onfocus="this.placeholder=''"
+          onblur="this.placeholder='Password'"
+          onsubmit="this.placeholder=''"
+        />
+        <input type="submit" class="loginBtn" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
